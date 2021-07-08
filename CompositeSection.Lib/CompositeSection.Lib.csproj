@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75238AF3-96F8-47C8-B340-3F5A3DEED4C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompositeSection.Lib</RootNamespace>
+    <AssemblyName>CompositeSection.Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;PARALLEL</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathNet.Numerics, Version=3.10.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.3.10.0\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AngleCompairer.cs" />
+    <Compile Include="BaseElement.cs" />
+    <Compile Include="BaseElementCollection.cs" />
+    <Compile Include="CriticalStrainCalculator.cs" />
+    <Compile Include="CriticalStrainRange.cs" />
+    <Compile Include="DTetaCurveFinder.cs" />
+    <Compile Include="ElasticMaterial.cs" />
+    <Compile Include="ElementCollection.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="FailurePoint.cs" />
+    <Compile Include="FailureRing.cs" />
+    <Compile Include="FailureSurface.cs" />
+    <Compile Include="FiberElement.cs" />
+    <Compile Include="FiberElementCollection.cs" />
+    <Compile Include="Force.cs" />
+    <Compile Include="Func1D.cs" />
+    <Compile Include="Func1dSolver.cs" />
+    <Compile Include="GeometryHelper.cs" />
+    <Compile Include="IMaterial.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="Materials\ManderConcrete.cs" />
+    <Compile Include="MathUtil.cs" />
+    <Compile Include="Matrix3X1.cs" />
+    <Compile Include="Matrix3X3.cs" />
+    <Compile Include="MomentCurvatureCalculator.cs" />
+    <Compile Include="NAlphaCurveFinder.cs" />
+    <Compile Include="NTetaCurveFinder.cs" />
+    <Compile Include="Materials\NullMaterial.cs" />
+    <Compile Include="Materials\ParabolicLinearConcrete.cs" />
+    <Compile Include="Materials\PerfectElasticPlastic.cs" />
+    <Compile Include="Point.cs" />
+    <Compile Include="PointCollection.cs" />
+    <Compile Include="PolygonSet.cs" />
+    <Compile Include="PolyLineElement.cs" />
+    <Compile Include="PolylineElementCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Section.cs" />
+    <Compile Include="Stiffness.cs" />
+    <Compile Include="StrainProfile.cs" />
+    <Compile Include="SurfaceElement.cs" />
+    <Compile Include="SurfaceElementCollection.cs" />
+    <Compile Include="ThreadSafeList.cs" />
+    <Compile Include="SectionUtil.cs" />
+    <Compile Include="Triangle.cs" />
+    <Compile Include="UltimateFibersSnapshot.cs" />
+    <Compile Include="VectorYZ.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\CompositeSection.licenseheader">
+      <Link>CompositeSection.licenseheader</Link>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SerializationMocks\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

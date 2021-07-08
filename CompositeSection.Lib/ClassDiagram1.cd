@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompositeSection.Lib.BaseElement" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEABAAAAAABAAAAAiAAAAAAAQIQAAAgAIABA=</HashCode>
+      <FileName>BaseElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositeSection.Lib.PointCollection" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAEgAAAAAAAAAgAAAAAAAEAAAAAEAAAABA=</HashCode>
+      <FileName>PointCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.SurfaceElement" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgAAAgAAAAAAiAAAAAAAAAQAAAgAAABA=</HashCode>
+      <FileName>SurfaceElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.PolyLineElement" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABBgAAAgAAAAAAiAAAAAACAAwAAAgAAABA=</HashCode>
+      <FileName>PolyLineElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.FiberElement" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAABAAAAAAAAQAAIiAAAAAAAAAQQAEwEIABE=</HashCode>
+      <FileName>FiberElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.ElementCollection&lt;T&gt;" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.CriticalStrainCalculator" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CriticalStrainCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.CriticalStrainRange" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACABAQAAMAAAAAAEAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>CriticalStrainRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.DTetaCurveFinder" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAoAAAAA=</HashCode>
+      <FileName>DTetaCurveFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.Extensions" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAgAAAAAABAAAIAQIAAAAAAAAAAAAAAABAhAAAA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.FailureSurface" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAAA=</HashCode>
+      <FileName>FailureSurface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.FiberElementCollection" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FiberElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.Func1D" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACABACAAAAAAAAAAAAAAAAAAgAAAAAICAAAA=</HashCode>
+      <FileName>Func1D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.Func1DSolver" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIAABCAQAAAEYAAAAAIAAAAIAYIAgAAFAQBAAA=</HashCode>
+      <FileName>Func1dSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.MathUtil" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAgAAAAAgAAAAAAAAAAAAAKAAAAAAAAAAAA=</HashCode>
+      <FileName>MathUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.NAlphaCurveFinder" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAABASBAEAAAAAAACBIJIAAAAA=</HashCode>
+      <FileName>NAlphaCurveFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.NTetaCurveFinder" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAACAAQAAAAAYAAAAAAAEAAABABABoAAAAA=</HashCode>
+      <FileName>NTetaCurveFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.NullMaterial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAQAAAAAAACAAAgAAAAAAwAAAAEAAAAgBA=</HashCode>
+      <FileName>NullMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.ParabolicLinearConcrete" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAgAAAAABQQAAAAAAAIAAgAAAAAEwAAAAAQAABgJA=</HashCode>
+      <FileName>ParabolicLinearConcrete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.PerfectElasticPlastic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAAAABQAAAAAAAAAAAgAAAAAEwAAAAAAAAAgBA=</HashCode>
+      <FileName>PerfectElasticPlastic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.PolygonSet" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolygonSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.PolyLineElementCollection" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PolylineElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.Section" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAgAAAAAAAABABAgAAAAAAAAAQAgiAAAgBI=</HashCode>
+      <FileName>Section.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositeSection.Lib.SurfaceElementCollection" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SurfaceElementCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.UltimateFibersSnapshot" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAEAAAAAQEAAAAACAAAAAAA=</HashCode>
+      <FileName>UltimateFibersSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.SectionUtil" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAgAAAAABAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>SectionUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeSection.Lib.Material" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAAAAkAAYAAAAABAAAAAgAAAAAAwAAIAAAAAAgBA=</HashCode>
+      <FileName>Material.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompositeSection.Lib.ElasticMaterial" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABQAAAAAAACAAAgAAAAAAwAAAAEAAAAgBA=</HashCode>
+      <FileName>ElasticMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CompositeSection.Lib.Point" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAgAAAAAIAAAAAAAAAAIiE=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="CompositeSection.Lib.StrainProfile" Collapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAgBAAQAAAAACAAA=</HashCode>
+      <FileName>StrainProfile.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompositeSection.Lib.Force" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAAAAAEAAAgAACAAAAAQAAAIAAAAAAAAiAAiQ=</HashCode>
+      <FileName>Force.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompositeSection.Lib.Matrix3X1" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAwAECAAAAAAAAAIAAAAAEoAFAAiA=</HashCode>
+      <FileName>Matrix3X1.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompositeSection.Lib.Matrix3X3" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAA4AEDAAAAAAAAAIAAAAAAvmlAAiQ=</HashCode>
+      <FileName>Matrix3X3.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompositeSection.Lib.FailurePoint" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAAIAAAAAIAAA=</HashCode>
+      <FileName>FailurePoint.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CompositeSection.Lib.Stiffness" Collapsed="true">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAQgAQACAAAAOACAAAAAQAAkAAAIGAAAAAAIAQ=</HashCode>
+      <FileName>Stiffness.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="CompositeSection.Lib.IMaterialObs" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
