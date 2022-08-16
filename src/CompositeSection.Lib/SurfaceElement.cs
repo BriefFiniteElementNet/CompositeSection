@@ -108,7 +108,7 @@ namespace CompositeSection.Lib
                 throw new Exception();
 
             if (this._points.First() != this._points.Last())
-                throw new Exception();
+                throw new Exception("start and end points must be same");
 
             Point[] ptsp;
 
