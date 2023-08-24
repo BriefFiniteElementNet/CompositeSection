@@ -2,6 +2,9 @@
 This is a scientific/engineering class library/framework for simulating and analysing thick reinforced concrete columns (also general composite section) under axial load and biaxial bending.
 As it is scientific it is suggested to first carefully read the pdf intro file (Todo: add pdf file)
 
+## Disclaimer
+Code is tested but incomplete, some features may not work
+
 ## Features
 
 Matrerial:

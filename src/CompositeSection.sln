@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1525
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeSection.Lib", "CompositeSection.Lib\CompositeSection.Lib.csproj", "{75238AF3-96F8-47C8-B340-3F5A3DEED4C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeSection.Test", "CompositeSection.Test\CompositeSection.Test.csproj", "{22546A0B-E9D9-4AE8-A121-57A017ED633D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeSection.Examples", "CompositeSection.Examples\CompositeSection.Examples.csproj", "{10D508D9-7C74-4B73-8F3F-CDABE2E76CDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{22546A0B-E9D9-4AE8-A121-57A017ED633D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22546A0B-E9D9-4AE8-A121-57A017ED633D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22546A0B-E9D9-4AE8-A121-57A017ED633D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D508D9-7C74-4B73-8F3F-CDABE2E76CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D508D9-7C74-4B73-8F3F-CDABE2E76CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D508D9-7C74-4B73-8F3F-CDABE2E76CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D508D9-7C74-4B73-8F3F-CDABE2E76CDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
